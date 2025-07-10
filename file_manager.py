@@ -4,7 +4,7 @@ def create_file(filename):
     try:
         with open(filename,'x') as f:
             print(f"File name {filename}: created successfully!")
-    except FileNotFoundError:
+    except FileExistsError:
         print(f"File name {filename} already exists!")
     except Exception as e:
         print("An error occured!")
