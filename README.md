@@ -1,17 +1,19 @@
-# 🗂️ Simple File Management System in Python
+# 🗂️ Simple File Management System
 
-This is a simple command-line-based file management system built using Python. It allows users to:
-- Create a file
-- View all files in the directory
-- Delete a file
-- Read a file
-- Edit a file (append data)
+A basic command-line based file management system built in Python.
 
-## 🚀 Features
-- Uses `os` module for file listing and deletion
-- Exception handling for robust error messages
-- Menu-driven interface in the terminal
+## 💡 Features
+- ✅ Create a file
+- 📄 View all files in the current directory
+- 🗑️ Delete a file
+- 👓 Read file content
+- ✍️ Edit (append to) an existing file
 
-## 📂 How to Run
+## 🛠️ Technologies Used
+- Python 3
+- `os` module for directory and file operations
+
+## ▶️ How to Run
+
 ```bash
 python file_manager.py
